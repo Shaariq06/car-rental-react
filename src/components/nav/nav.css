@@ -11,26 +11,19 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #000;
     text-align: center;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
     font-size: 1.2vw;
     font-weight: 300;
     text-decoration: none;
 }
 
-.left-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    width: 200px;
-}
-
-.right-nav {
+.nav-links-div {
     display: flex;
     flex-grow: 1;
     flex-direction: row;
     justify-content: center;
-    max-width: 700px;
+    max-width: 1200px;
 }
 
 .rent-button {
