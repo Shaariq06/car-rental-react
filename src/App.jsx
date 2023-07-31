@@ -1,6 +1,6 @@
 // import { useState } from 'react'
 import './App.css';
-import Nav from './components/Nav/index.js';
+import Nav from '/Shaariq/car-rental-react/src/components/nav';
 
 function App() {
 
