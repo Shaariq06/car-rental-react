@@ -7,7 +7,7 @@ const Nav = () => {
     <div className="nav-container">
       <div className="brand">
         <a href="/">
-            <img src="src/assets/logo.png" width="200px"></img>
+            <img src="/logo.png" width="200px"></img>
         </a>
       </div>
       <div className="nav-links-div">
@@ -18,7 +18,7 @@ const Nav = () => {
       </div>
       <a className="rent-button" href="/">Rent a Car</a>
       <a className="contact-us-button" href="/">Contact Us</a>
-      <a href="/"><img src="src/assets/account-icon.png" width="38px"></img></a>
+      <a href="/"><img src="/account-icon.png" width="38px"></img></a>
     </div>
   )
 }
