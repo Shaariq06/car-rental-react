@@ -15,11 +15,10 @@ const Nav = () => {
           <a href="/" className="nav-link">Service</a>
           <a href="/" className="nav-link">Fleet</a>
           <a href="/" className="nav-link">About Us</a>
-          <a href="/" className="nav-link">Contact Us</a>
       </div>
-      <div className="left-nav">
-        <a href="/"><img src="src/assets/account-icon.png" width="25px"></img></a>
-      </div>
+      <a className="rent-button">Rent a Car</a>
+      <a className="contact-us-button">Contact Us</a>
+      <a href="/"><img src="src/assets/account-icon.png" width="38px"></img></a>
     </div>
   )
 }

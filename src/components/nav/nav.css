@@ -1,25 +1,10 @@
-.brand {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    width: 400px;
-}
-
 .nav-container {
-    width: 100%;
-    max-width: 1600px;
+    width: auto;
     justify-content: center;
     align-items: center;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 15px 30px;
+    margin: 0 auto;
     display: flex;
-}
-
-.navbar {
-    display: flex;
-    flex-direction: row;
-    /* justify-content: center; */
-    width: 100%;
 }
 
 .nav-link {
@@ -42,7 +27,38 @@
 
 .right-nav {
     display: flex;
+    flex-grow: 1;
     flex-direction: row;
     justify-content: center;
-    width: 600px;
+    max-width: 700px;
+}
+
+.rent-button {
+    color: whitesmoke;
+    background-color: #616161;
+    border-radius: 20px;
+    margin-right: 20px;
+    font-weight: 500;
+    line-height: inherit;
+    cursor: pointer;
+    border: 0;
+    padding: 9px 15px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-us-button {
+    color: #f95520;
+    background-color: transparent;
+    border: 1px solid #f95520;
+    border-radius: 20px;
+    margin-right: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    line-height: inherit;
+    cursor: pointer;
+    padding: 9px 15px;
+    text-decoration: none;
+    display: inline-block;
 }
